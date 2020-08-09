@@ -4,12 +4,15 @@
     "description": "Library that acts as a wrapper to creating an HTTP request to IBM Personality Insights API",
     "main": "./dist/index.js",
     "types": "./dist/index.d.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coffee2stuff/IBM-Insights-Lite"
+    },
     "scripts": {
         "lint": "eslint \"src/**/*.ts\" --fix",
         "format": "prettier --write \"src/**/*.ts\"",
         "prebuild": "rm -rf dist && npm run lint && npm run format",
-        "build": "tsc -p tsconfig.json",
-        "test": "jest"
+        "build": "tsc -p tsconfig.json"
     },
     "author": {
         "name": "Peter Aleksander Bizjak",
