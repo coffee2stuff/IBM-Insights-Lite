@@ -19,8 +19,7 @@
         "email": "peteralex.developer@gmail.com",
         "url": "https://github.com/coffee2stuff"
     },
-    "private": true,
-    "license": "UNLICENSED",
+    "license": "MIT",
     "dependencies": {
         "axios": "^0.19.2"
     },
